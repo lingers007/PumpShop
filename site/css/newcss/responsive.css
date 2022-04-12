@@ -1,0 +1,107 @@
+@media(max-width:1024px)
+{
+	.hme-flat-rsec-btn{
+		display: block;
+		margin-top: 22px;
+	}
+}
+@media(max-width:767px)
+{
+	.topmenu h3.top-menu-ph-no 
+	{
+		margin: 15px 0 0;
+		text-align: center;
+    }
+	.topmenu .top-menu-ul 
+	{
+		margin: 8px 0 15px;		
+		text-align: center;
+    }
+	.main-menu .navbar-default .navbar-nav .open .dropdown-menu > li > a 
+	{
+		color: #fff;
+    }
+	.main-menu .navbar-brand
+	{
+		display:block;
+		color:#fff;
+		font-family: 'bebas_neueregular';
+		font-size:22px;
+	}
+	.main-menu .navbar-default .navbar-brand:focus, .main-menu .navbar-default .navbar-brand:hover
+	{
+		color:#fff;
+	}
+	.main-menu .nav > li > a {
+    padding: 10px 25px;
+    }
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a:focus, .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover
+	{
+		color:#fff;
+		text-decoration:underline;
+	}
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #fff;
+   }
+   .ftr-btm-sec-inr.ftr-pay-sec
+	{
+		border: medium none;
+		padding-top: 20px;
+		text-align: center;
+	}
+	.cpy-txt {
+    text-align:center;
+    }
+	.logo-sec-inr
+	{
+		text-align:center;
+	}
+	.home-client-ul
+	{
+		text-align:center;
+	}
+	.home-client-sec .bx-wrapper img
+	{
+			margin-bottom: 20px;
+	}
+}
+
+@media(min-width:480px) and (max-width:767px)
+{
+	.top-srch
+	{
+		left: 15px;		
+		top: 175px;
+		right:auto;
+	}
+} 
+@media(max-width:479px)
+{
+	.top-srch
+	{
+		left: 15px;
+		position: absolute;
+		top: 170px;
+		right:auto;
+	}
+	.top-srch .form-wrapper input
+	{
+		width: 130px;
+	}
+	.logo-sec-inr
+	{
+		margin-bottom:10px;
+	}
+	.rel_item_price, .plst-row_price
+	{
+		 display: block;
+		 top: 0px;
+		 float:none;
+	}
+	.rel_item_add_cart, .plst-row_add_cart
+	{
+		 display: inline-block;		 
+		 float:none;
+		 margin-top: 10px;
+	}	
+}

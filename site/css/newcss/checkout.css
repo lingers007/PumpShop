@@ -1,0 +1,12 @@
+#innerwrapper #div__body
+{
+	margin: 30px auto 30px!important;
+    max-width: 1170px;
+    padding: 0 15px
+}
+#handle_cartMainPortlet table
+{
+	margin: 0 auto;
+    max-width: 1170px;
+}
+
